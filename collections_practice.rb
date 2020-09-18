@@ -46,8 +46,8 @@ def sum_array(array)
 end
 
 def add_s(array)
-  array.each do |word|
-    if  word != "feet"
+  array.each_with_index.collect do |word, index|
+    if  word != word[index]
       word << "s"
     end
   end
