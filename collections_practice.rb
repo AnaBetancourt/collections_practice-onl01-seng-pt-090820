@@ -45,10 +45,3 @@ def sum_array(array)
   array.inject{|sum, n| sum + n} 
 end
 
-def add_s(array)
-  array.each do |word|
-    if  word != "feet"
-      word << "s"
-    end
-  end
-end
