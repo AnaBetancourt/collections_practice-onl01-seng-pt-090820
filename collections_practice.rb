@@ -48,8 +48,6 @@ end
 def add_s(array)
   array.each do |word|
     if  word != "feet"
-      
-    else 
       word << "s"
     end
   end
